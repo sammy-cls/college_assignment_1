@@ -1,4 +1,5 @@
 # CODE REQUIREMENT 1 of 6 - welcome message with name and surname (pt-br: EXIGÊNCIA DO CÓDIGO 1 de 6 - mensagem de boas-vindas com nome e sobrenome)
+
 print("Bem-vindo ao sistema da Sammy Health! Desenvolvido por Samuel Alves Miranda.")
 
 # CODE REQUIREMENT 2 of 6 - price based on age (pt-br: EXIGÊNCIA DO CÓDIGO 2 de 6 - preço baseado na idade)
