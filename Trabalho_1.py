@@ -12,6 +12,7 @@ idade = int(input("Digite a idade do cliente: "))
 
 # CODE REQUIREMENT 3 of 6 - implementation of value rules (pt-br: EXIGÊNCIA DO CÓDIGO 3 de 6 - implementação de regras de valor)
 # CODE REQUIREMENT 5 of 6 - use of if, elif and else (pt-br: EXIGÊNCIA DO CÓDIGO 5 de 6 - uso de if, elif e else)
+# Requirement 4 is right below; I've combined requirements 3 and 5 because they are complementary.
 
 if idade >= 0 and idade < 19:
     porcentagem = 100 # 100%
