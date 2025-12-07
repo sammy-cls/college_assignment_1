@@ -85,5 +85,5 @@ while True:
         break
 
 print("=" * 64)
-print("-" * 8 + f"Valor total do pedido: R$ {totalPedido:.2f}" + "-" * 8)
+print("-" * 14 + f"| Valor total do pedido: R$ {totalPedido:.2f} |" + "-" * 15)
 print("=" * 64)
