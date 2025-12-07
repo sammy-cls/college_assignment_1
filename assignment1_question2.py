@@ -47,6 +47,20 @@ while True:
 
     valorPizza = 0.0
 
-    if sabor == "PS":
+    if sabor == "PS": # Flavor PS (Sabor PS)
         if tamanho == "P":
             valorPizza = 30.00
+        elif tamanho == "M":
+            valorPizza = 45.00
+        elif tamanho == "G":
+            valorPizza = 60.00
+    else: # Flavor PD (Sabor PD)
+        if tamanho == "P":
+            valorPizza == 34.00
+        elif tamanho == "M":
+            valorPizza == 48.00
+        elif tamanho == "G":
+            valorPizza == 66.00
+
+    sabor_texto = "Pizza salgada" if sabor == "PS" else "Pizza doce"
+    print(f"Você pediu uma {sabor_texto} no tamanho {tamanho}: R$ {valorPizza:.2f}")
