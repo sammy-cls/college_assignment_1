@@ -41,7 +41,6 @@ valorMensal = valorBase * (porcentagem / 100)
 
 print(f"Para um cliente de {idade} anos:")
 print(f"Valor base do plano: R$ {valorBase:.2f}")
-print(f"Percentual aplicado: {porcentagem}%")
 print(f"Valor mensal do plano: R$ {valorMensal:.2f}")
 
 # CODE REQUIREMENT 6 of 6 - relevant comments (added throughout the code) (pt-br: EXIGÊNCIA DO CÓDIGO 6 de 6 - comentários relevantes (adicionados ao longo do código))
