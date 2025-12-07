@@ -3,6 +3,5 @@
 print("=" * 50)
 print("Bem-vindo à Pizzaria do Samuel Alves Miranda!")
 print("=" * 50)
-print("\n" + '-' * 44)
 print('-' * 18 + "Cardápio" + '-' * 18)
 print("-" * 44)
