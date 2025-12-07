@@ -25,4 +25,10 @@ totalPedido = 0.0
 while True:
     # CODE REQUIREMENT 2 of 8 - favor input with validation (pt-br: input do sabor com validação)
     while True:
-        sabor = input("Qual o sabor desejado (PS/PD): ")
+        sabor = input("Qual o sabor desejado? (PS/PD): ")
+
+        if sabor == "PS" or sabor == "PD":
+            break
+        else:
+            print("Sabor inválido. Tente novamente, por gentileza.")
+            continue # CODE REQUIREMENT 7 of 8 use continue (pt-br: usar continue)
