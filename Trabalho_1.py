@@ -36,9 +36,11 @@ else:
 
 valorMensal = valorBase * (porcentagem / 100)
 
-# CONSOLE REQUIREMENT 2 of 2 - presentation of the result (pt-br: EXIGÊNCIA DE CONSOLE 2 de 2 - apresentação do resultado)
+# CONSOLE REQUIREMENT 2 of 2 - presentation of the result (pt-br: EXIGÊNCIA DO CONSOLE 2 de 2 - apresentação do resultado)
 
 print(f"Para um cliente de {idade} anos:")
 print(f"Valor base do plano: R$ {valorBase:.2f}")
 print(f"Percentual aplicado: {porcentagem}%")
 print(f"Valor mensal do plano: R$ {valorMensal:.2f}")
+
+# CODE REQUIREMENT 6 of 6 - relevant comments (added throughout the code) (pt-br: EXIGÊNCIA DO CÓDIGO 6 de 6 - comentários relevantes (adicionados ao longo do código))
