@@ -3,3 +3,7 @@
 print("=============================================")
 print("Bem-vindo à Pizzaria do Samuel Alves Miranda!")
 print("=============================================")
+print("\nMENU:")
+print("Sabores:")
+print("Pizza Salgada")
+print("Pizza Doce")
