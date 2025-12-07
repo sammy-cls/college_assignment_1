@@ -31,3 +31,7 @@ elif idade >= 49 and idade < 59:
 
 else:
     porcentagem = 600 # 600%
+
+# CODE REQUIREMENT 4 of 6 - calculation of the monthly value - (pt-br: EXIGÊNCIA DO CÓDIGO 4 de 6 - cálculo do valor mensal)
+
+valorMensal = valorBase * (porcentagem / 100)
