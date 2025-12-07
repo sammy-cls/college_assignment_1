@@ -56,11 +56,34 @@ while True:
             valorPizza = 60.00
     else: # Flavor PD (Sabor PD)
         if tamanho == "P":
-            valorPizza == 34.00
+            valorPizza = 34.00
         elif tamanho == "M":
-            valorPizza == 48.00
+            valorPizza = 48.00
         elif tamanho == "G":
-            valorPizza == 66.00
+            valorPizza = 66.00
 
     sabor_texto = "Pizza salgada" if sabor == "PS" else "Pizza doce"
     print(f"Você pediu uma {sabor_texto} no tamanho {tamanho}: R$ {valorPizza:.2f}")
+
+    # CODE REQUIREMENT 5 of 8 - accumulator system (pt-br: sistema de acumulação)
+    # Add the current pizza price to the total order price (pt-br: Somar o valor da pizza atual com o total do pedido)
+
+    totalPedido += valorPizza
+
+    # CODE REQUIREMENT 6 of 8 - add more pizzas (pt-br: adicionar mais pizzas)
+    # loop with Y/N validation (pt-br: loop com validação de S/N)
+
+    while True:
+        continuar = input("Deseja mais alguma coisa? (S/N): ")
+        if continuar == "S" or continuar == "N":
+            break
+        else:
+            print("Por favor, responda com S para Sim ou N para não.")
+            continue
+
+    if continuar == "N":
+        break
+
+print("=" * 64)
+print("-" * 8 + f"Valor total do pedido: R$ {totalPedido:.2f}" + "-" * 8)
+print("=" * 64)
