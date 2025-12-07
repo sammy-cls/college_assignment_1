@@ -18,3 +18,15 @@ if idade >= 0 and idade < 19:
 
 elif idade >= 19 and idade < 29:
     porcentagem = 150 # 150%
+
+elif idade >= 29 and idade < 39:
+    porcentagem = 225 # 225%
+
+elif idade >= 39 and idade < 49:
+    porcentagem = 240 # 250%
+
+elif idade >= 49 and idade < 59:
+    porcentagem = 350 # 350%
+
+else:
+    porcentagem = 600 # 600%
