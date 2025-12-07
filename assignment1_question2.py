@@ -32,3 +32,13 @@ while True:
         else:
             print("Sabor inválido. Tente novamente, por gentileza.")
             continue # CODE REQUIREMENT 7 of 8 use continue (pt-br: usar continue)
+
+    # CODE REQUIREMENT 2 of 8 - size input with validation (pt-br: input do tamanho com validação)
+    while True:
+        tamanho = input("Qual o tamanho desejado? (P/M/G): ")
+
+        if tamanho == "P" or tamanho == "M" or tamanho == "G":
+            break
+        else:
+            print("Tamanho inválido. Tente novamente, por gentileza.")
+            continue # CODE REQUIREMENT 7 of 8 use continue (pt-br: usar continue)
