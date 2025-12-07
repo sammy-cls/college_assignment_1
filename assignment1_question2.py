@@ -43,4 +43,10 @@ while True:
             print("Tamanho inválido. Tente novamente, por gentileza.")
             continue # CODE REQUIREMENT 7 of 8 use continue (pt-br: usar continue)
 
-# CODE REQUIREMENT 4 of 8 - use while, break, continue structures (pt-br: usar estruturas while, break, continue)
+# CODE REQUIREMENT 4 of 8 - implement if, elif, and/or else statements. (pt-br: implementar if, elif e/ou else.)
+
+    valorPizza = 0.0
+
+    if sabor == "PS":
+        if tamanho == "P":
+            valorPizza = 30.00
