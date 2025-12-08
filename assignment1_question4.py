@@ -31,3 +31,7 @@ def cadastrarContato(id):
     }
 
     listaContatos.append(contato.copy())
+
+    print(f"Contato '{nome}' cadastrado com sucesso1")
+
+def 
