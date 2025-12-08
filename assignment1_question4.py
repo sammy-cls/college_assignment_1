@@ -9,3 +9,15 @@ print('-' * 25 + "Menu Principal" + '-' * 25)
 
 # CODE REQUIREMENT 2 of 8 - list of contacts and variable id_global with RU value
 # (pt-br: EXIGÊNCIA DO CÓDIGO 2 de 8 - lista_contatos e a variável id_global com valor igual ao número de meu RU)
+
+listaContatos = []
+id_global = 5517944
+
+# CODE REQUIREMENT 3 of 8 - function to register contact
+# (pt-br: EXIGÊNCIA DO CÓDIGO 3 de 8- função para cadastrar contato
+
+def cadastrarContato(id):
+
+    nome =
+    atividade =
+    telefone = 
