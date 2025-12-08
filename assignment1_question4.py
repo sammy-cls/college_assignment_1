@@ -29,3 +29,5 @@ def cadastrarContato(id):
         'atividade': atividade,
         'telefone': telefone
     }
+
+    listaContatos.append(contato.copy())
