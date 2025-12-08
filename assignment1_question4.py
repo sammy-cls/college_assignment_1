@@ -35,7 +35,7 @@ def cadastrarContato(id):
 
     listaContatos.append(contato.copy())
 
-    print(f"Contato '{nome}' cadastrado com sucesso1")
+    print(f"Contato '{nome}' cadastrado com sucesso!")
 
 # CODE REQUIREMENT 4 of 8 - function to consult contacts
 # (pt-br: EXIGÊCNIA DE CÓDIGO 4 de 8 - função para consultar contatos)
@@ -159,3 +159,30 @@ while True:  # loop principal do menu
     print("2 - Consultar Contato(S)")
     print("3 - Remover Contato")
     print("4 - Sair")
+
+    try:
+        opcao = int(input("Escolha uma opção: "))
+    except ValueError:
+        print("Opção inválida! Digite um número entre 1 e 4.")
+        continue
+    
+    if opcao == 1:  # Cadastrar Contato
+        cadastrarContato(id_global)
+        id_global += 1  # Incrementa o ID global
+        
+    elif opcao == 2:  # Consultar Contato
+        consultarContatos()
+        
+    elif opcao == 3:  # Remover Contato
+        if not listaContatos:
+            print("Nenhum contato cadastrado para remover.")
+        else:
+            removerContato()
+            
+    elif opcao == 4:  # Encerrar Programa
+        print("\nObrigado por usar nosso sistema!")
+        print("Programa encerrado.")
+        break
+        
+    else:
+        print("Opção inválida! Digite um número entre 1 e 4.")
