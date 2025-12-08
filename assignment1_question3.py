@@ -93,6 +93,9 @@ def main():
 
     # CODE REQUIREMENT 5 of 7 calculation of the total amount to be paid in a main def (pt-br: EXIGÊNCIA DO CÓDIGO 5 de 7 - calculo do total a pagar em uma def main)
 
+    # No enunciado pede: total = ((tipoMadeira * qtdToras)*(1-desconto)) + transporte
+    # Mas desse jeito divide o cálculo em etapas lógicas, assim melhora a legibilidade e manutenção do código
+
     valorTotalMadeira = valoresMadeira * quantidade
     valorTotalDesconto = valorTotalMadeira * (1 - desconto)
 
@@ -106,5 +109,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print("Ocorreu um erro inesperado: {e}")
+        print(f"Ocorreu um erro inesperado: {e}")
         print("Por favor, reinicie o sistema e contate nosso suporte: (99)9999-9999")
