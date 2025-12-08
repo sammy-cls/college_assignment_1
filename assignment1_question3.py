@@ -40,7 +40,7 @@ def qtd_toras():
 
             if quantidade > 2000:
                 print("Não aceitamos pedidos com essa quantidade de todas.")
-                print("Por favor, digite a quantidade novamente. (Máximo: 2.000)")
+                print("Por favor, digite a quantidade novamente. (Máximo: 2000)")
                 continue
 
             if quantidade < 100:
