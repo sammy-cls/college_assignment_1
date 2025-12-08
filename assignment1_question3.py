@@ -88,7 +88,7 @@ def transporte():
 def main():
     
     valoresMadeira = escolha_tipo()
-    quantidade, desconto = qtd_toras()
+    qtd_toras, desconto = qtd_toras()
     valorTransporte = transporte()
 
     # CODE REQUIREMENT 5 of 7 calculation of the total amount to be paid in a main def (pt-br: EXIGÊNCIA DO CÓDIGO 5 de 7 - calculo do total a pagar em uma def main)
