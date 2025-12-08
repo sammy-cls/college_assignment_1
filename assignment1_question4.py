@@ -138,4 +138,13 @@ def removerContato():
                     contatoEncontrado = contato
                     break
 
+            if contatoEncontrado:
+                listaContatos.remove(contatoEncontrado)
+                print(f"Contato ID {idRemover} foi removido com sucesso!")
+                break
             
+            else:
+                print("ID inválido! Contato não encontrado.")
+
+        except ValueError:
+            print("ID inválido! Tente novamente.")
