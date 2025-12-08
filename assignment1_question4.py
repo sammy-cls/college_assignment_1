@@ -18,6 +18,6 @@ id_global = 5517944
 
 def cadastrarContato(id):
 
-    nome =
-    atividade =
-    telefone = 
+    nome = input("Por favor, digite o nome do Contato:")
+    atividade = input("Por favor, digite a Atividade do contato: ")
+    telefone = input("Por favor, digiteo Telefone do contato: ")
