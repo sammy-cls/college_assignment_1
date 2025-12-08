@@ -65,4 +65,15 @@ def qtd_toras():
 
 def transporte():
 
-    valores
+    valoresTransporte = {
+        "1": 1000.00, # transporte rodoviario
+        "2": 2000.00, # transporte ferroviario
+        "3": 2500.00 # transporte hidroviario
+    }
+
+    while True:
+        # input to select what type of transport (pt-br: input para seleção de que tipo de transporte)
+        print("Opções de transporte:")
+        print("1 - Transporte Rodoviário - R$ 1000.00")
+        print("2 - Transporte Ferroviário - R$ 2000.00")
+        print("3 - Transporte Hidroviário - R$ 2500.00")
