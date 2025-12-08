@@ -21,7 +21,7 @@ def cadastrarContato(id):
     print('-' * 21 + f"Id do contato: {id}" + '-' * 21)
     nome = input("Por favor, digite o nome do Contato: ")
     atividade = input("Por favor, digite a Atividade do contato: ")
-    telefone = input("Por favor, digiteo Telefone do contato: ")
+    telefone = input("Por favor, digite o Telefone do contato: ")
 
     contato= {
         'id': id,
