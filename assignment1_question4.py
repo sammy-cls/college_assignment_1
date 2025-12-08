@@ -124,4 +124,18 @@ def consultarContatos():
 # (pt-br: EXIGÊNCIA DE CÓDIGO 5 de 8: função para remover contato)
 
 def removerContato():
-    
+
+    while True:
+        
+        try:
+            idRemover = int(input("Digite o ID do contato que deseja remover: "))
+
+            # procurar id
+
+            contatoEncontrado = None
+            for contato in listaContatos:
+                if contato['id'] == idRemover:
+                    contatoEncontrado = contato
+                    break
+
+            
