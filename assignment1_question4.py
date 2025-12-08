@@ -30,8 +30,35 @@ def cadastrarContato(id):
         'telefone': telefone
     }
 
+    # CODE REQUIREMENT 7 of 8 - add a copy of the dictionary to the list
+    #(pt-br: EXIGÊCNIA DE CÓDIGO 7 de 8 - adicionar uma cópia na lista do dicionario)
+
     listaContatos.append(contato.copy())
 
     print(f"Contato '{nome}' cadastrado com sucesso1")
 
-def 
+# CODE REQUIREMENT 4 of 8 - function to consult contacts
+# (pt-br: EXIGÊCNIA DE CÓDIGO 4 de 8 - função para consultar contatos)
+
+def consultarContatos():
+
+    while True:
+        print('-' * 12 + "Menu de Consulta" + '-' * 12)
+        print("1 - Cadastrar Contato")
+        print("2 - Consultar Contato(S)")
+        print("3 - Remover Contato")
+        print("4 - Sair")
+
+        try:
+            opcao = int(input("Escolha a opção desejada: "))
+
+        except ValueError:
+            print("Opção inválida! Digite o número.")
+
+            continue
+
+        if opcao == 1:
+            if not listaContatos:
+                print("Nenhum contato cadastrado.")
+            else:
+                print
