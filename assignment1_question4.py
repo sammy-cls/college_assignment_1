@@ -68,3 +68,22 @@ def consultarContatos():
                  print(f"Atividade: {contato['atividade']}")
                  print(f"Telefone: {contato['telefone']}")
                  print("-" * 64)
+
+        elif opcao == 2:
+
+            try:
+                idBusca = int(input"Digite o ID do Contato: ")
+                encontrado = False
+
+                for contato in listaContatos:
+                    if contato['id'] ==idBusca:
+                        print("\n--- Contato Encontrado ---")
+                        print(f"ID: {contato['id']}")
+                        print(f"Nome: {contato['nome']}")
+                        print(f"Atividade: {contato['atividade']}")
+                        print(f"Telefone: {contato['telefone']}")
+                        encontrado = True
+                        break
+
+                    if not encontrado:
+                        print("Contato não encontrado.")
