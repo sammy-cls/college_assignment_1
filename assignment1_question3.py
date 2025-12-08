@@ -85,4 +85,18 @@ def transporte():
         else:
             print("Opção inválida! Tente novamente com 1, 2 ou 3.")
 
-def main
+def main():
+    
+    valoresMadeira = escolha_tipo()
+    quantidade, desconto = qtd_toras()
+    valorTransporte = transporte()
+
+    # CODE REQUIREMENT 5 of 7 calculation of the total amount to be paid in a main def (pt-br: EXIGÊNCIA DO CÓDIGO 5 de 7 - calculo do total a pagar em uma def main)
+
+    valorTotalMadeira = valoresMadeira * qtd_toras
+    valorTotalDesconto = valorTotalMadeira * (1 - desconto)
+
+    total = valorTotalDesconto + valorTransporte
+
+    print(f"Total: R$ {total:.2f}")
+
