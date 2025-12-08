@@ -97,14 +97,14 @@ def consultarContatos():
             encontrado = []
             
             for contato in listaContatos:
-                if contato['atividade']() == atividadeBusca:
+                if contato['atividade'] == atividadeBusca:
                     encontrado.append(contato)
 
             if not encontrado:
                 print(f"Nenhum contato encontrado com a atividade '{atividadeBusca}'")
 
             else:
-                print("Contatos com atividade '{atividadeBusca}:'")
+                print(f"Contatos com atividade '{atividadeBusca}:'")
 
                 for contato in encontrado:
                     print(f"ID: {contato['id']}")
