@@ -44,10 +44,10 @@ def consultarContatos():
 
     while True:
         print('-' * 12 + "Menu de Consulta" + '-' * 12)
-        print("1 - Cadastrar Contato")
-        print("2 - Consultar Contato(S)")
-        print("3 - Remover Contato")
-        print("4 - Sair")
+        print("1 - Consultar Todos")
+        print("2 - Consultar por Id")
+        print("3 - Consultar por Atividade")
+        print("4 - Retornar ao menu")
 
         try:
             opcao = int(input("Escolha a opção desejada: "))
