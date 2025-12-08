@@ -118,3 +118,10 @@ def consultarContatos():
         
         else:
             print("Opção inválida!")
+
+
+# CODE REQUIREMENT 5 of 8: function to remove contact
+# (pt-br: EXIGÊNCIA DE CÓDIGO 5 de 8: função para remover contato)
+
+def removerContato():
+    
