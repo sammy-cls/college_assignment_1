@@ -34,7 +34,7 @@ def escolha_tipo():
 
 def qtd_toras():
 
-    while True
+    while True:
         try:
             quantidade = float(input("Digite a quantidade de toras (m³): "))
 
@@ -43,4 +43,19 @@ def qtd_toras():
                 print("Por favor, digite a quantidade novamente. (Máximo: 2.000)")
                 continue
 
-            if 
+            if quantidade < 100:
+                desconto = 0.00
+            elif quantidade < 500:
+                desconto = 0.04
+            elif quantidade < 1000:
+                desconto = 0.09
+            elif quantidade <= 2000:
+                desconto = 0.16
+            else:
+                desconto = 0.00
+            
+            return quantidade, desconto
+        
+        except ValueError:
+
+            print("Valor ")
