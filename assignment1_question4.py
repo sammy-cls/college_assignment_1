@@ -53,7 +53,7 @@ def consultarContatos():
             opcao = int(input("Escolha a opção desejada: "))
 
         except ValueError:
-            print("Opção inválida! Digite o número.")
+            print("Opção inválida! Digite um número.")
 
             continue
 
@@ -61,4 +61,10 @@ def consultarContatos():
             if not listaContatos:
                 print("Nenhum contato cadastrado.")
             else:
-                print
+                print("-" * 13 + "Todos os Contatos" + "-" * 13)
+                for contato in listaContatos
+                 print(f"ID: {contato['id']}")
+                 print(f"Nome: {contato['nome']}")
+                 print(f"Atividade: {contato['atividade']}")
+                 print(f"Telefone: {contato['telefone']}")
+                 print("-" * 64)
