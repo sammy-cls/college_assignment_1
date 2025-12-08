@@ -56,6 +56,13 @@ def qtd_toras():
             
             return quantidade, desconto
         
+        # CODE REQUIREMENT 6 of 7 - error handling for non-numeric values (pt-br: EXIGÊNCIA DO CÓDIGO 6 de 7 - tratamento de erros para valores não numéricos)
         except ValueError:
 
-            print("Valor ")
+            print("Valor inválido! Tente novamente.")
+
+# CODE REQUIREMENT 4 of 7 - def of transportation additional value (pt-br: EXIGÊNCIA DO CÓDIGO 4 de 7 - def do valor do adicional de transporte)
+
+def transporte():
+
+    valores
