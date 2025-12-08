@@ -87,3 +87,28 @@ def consultarContatos():
 
                     if not encontrado:
                         print("Contato não encontrado.")
+
+            except ValueError:
+                print("ID inválido. Tente novamente.")
+
+        elif opcao == 3:
+
+            atividadeBusca = input("Digite a atividade para busca: ")
+            encontrado = []
+            
+            for contato in listaContatos:
+                if contato['atividade']() == atividadeBusca:
+                    encontrado.append(contato)
+
+            if not encontrado:
+                print(f"Nenhum contato encontrado com a atividade '{atividadeBusca}'")
+
+            else:
+                print("Contatos com atividade '{atividadeBusca}:'")
+
+                for contato in encontrados:
+                    print(f"ID: {contato['id']}")
+                    print(f"Nome: {contato['nome']}")
+                    print(f"Atividade: {contato['atividade']}")
+                    print(f"Telefone: {contato['telefone']}")
+                    print("-" * 64)
