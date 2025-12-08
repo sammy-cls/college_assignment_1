@@ -186,3 +186,6 @@ while True:  # loop principal do menu
         
     else:
         print("Opção inválida! Digite um número entre 1 e 4.")
+
+# CODE REQUIREMENT 8 of 8 - relevant comments (added throughout the code)
+# (pt-br: EXIGÊNCIA DO CÓDIGO 8 de 8 - comentários relevantes (adicionados ao longo do código))
