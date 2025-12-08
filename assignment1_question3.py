@@ -99,3 +99,12 @@ def main():
     total = valorTotalDesconto + valorTransporte
 
     print(f"Total: R$ {total:.2f}")
+
+# CODE REQUIREMENT 6 of 7 - error handling (pt-br: EXIGÊNCIA DO CÓDIGO 6 de 7 - tratamento de erros)
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as e:
+        print("Ocorreu um erro inesperado: {e}")
+        print("Por favor, reinicie o sistema e contate nosso suporte: (99)9999-9999")
