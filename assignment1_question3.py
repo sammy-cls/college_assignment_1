@@ -77,3 +77,12 @@ def transporte():
         print("1 - Transporte Rodoviário - R$ 1000.00")
         print("2 - Transporte Ferroviário - R$ 2000.00")
         print("3 - Transporte Hidroviário - R$ 2500.00")
+
+        opcaoTransporte = input("Digite o tipo de transporte (1/2/3): ")
+
+        if opcaoTransporte in valoresTransporte:
+            return valoresTransporte[opcaoTransporte]
+        else:
+            print("Opção inválida! Tente novamente com 1, 2 ou 3.")
+
+def main
