@@ -62,7 +62,7 @@ def consultarContatos():
                 print("Nenhum contato cadastrado.")
             else:
                 print("-" * 13 + "Todos os Contatos" + "-" * 13)
-                for contato in listaContatos
+                for contato in listaContatos:
                  print(f"ID: {contato['id']}")
                  print(f"Nome: {contato['nome']}")
                  print(f"Atividade: {contato['atividade']}")
@@ -72,7 +72,7 @@ def consultarContatos():
         elif opcao == 2:
 
             try:
-                idBusca = int(input"Digite o ID do Contato: ")
+                idBusca = int(input("Digite o ID do Contato: "))
                 encontrado = False
 
                 for contato in listaContatos:
@@ -106,9 +106,15 @@ def consultarContatos():
             else:
                 print("Contatos com atividade '{atividadeBusca}:'")
 
-                for contato in encontrados:
+                for contato in encontrado:
                     print(f"ID: {contato['id']}")
                     print(f"Nome: {contato['nome']}")
                     print(f"Atividade: {contato['atividade']}")
                     print(f"Telefone: {contato['telefone']}")
                     print("-" * 64)
+
+        elif opcao == 4:
+            return
+        
+        else:
+            print("Opção inválida!")
