@@ -112,5 +112,4 @@ if __name__ == "__main__":
         print(f"Ocorreu um erro inesperado: {e}")
         print("Por favor, reinicie o sistema e contate nosso suporte: (99)9999-9999")
 
-
 # CODE REQUIREMENT 7 of 7 - relevant comments (added throughout the code) (pt-br: EXIGÊNCIA DO CÓDIGO 7 de 7 - comentários relevantes (adicionados ao longo do código))
