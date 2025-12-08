@@ -84,10 +84,10 @@ while True:
     if continuar == "N":
         break
 
-# CODE REQUIREMENT 6 of 8 - final accumulate total value - (pt-br: valor total final acumulado)
+# CODE REQUIREMENT 5 of 8 - final accumulate total value - (pt-br: valor total final acumulado)
 
 print("=" * 64)
 print("-" * 14 + f"| Valor total do pedido: R$ {totalPedido:.2f} |" + "-" * 15)
 print("=" * 64)
 
-# CODE REQUIREMENT 8 of 8 - relevant comments (added throughout the code) (pt-br: EXIGÊNCIA DO CÓDIGO 6 de 6 - comentários relevantes (adicionados ao longo do código))
+# CODE REQUIREMENT 8 of 8 - relevant comments (added throughout the code) (pt-br: EXIGÊNCIA DO CÓDIGO 8 de 8 - comentários relevantes (adicionados ao longo do código))
